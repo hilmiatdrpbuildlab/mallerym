@@ -1,0 +1,11 @@
+node_modules
+.svelte-kit
+build
+.env
+.env.*
+!.env.example
+.wrangler
+.dev.vars
+scripts/.cache
+.admin-credentials
+.app-db-url

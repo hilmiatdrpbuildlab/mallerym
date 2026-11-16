@@ -1,0 +1,18 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "mallerym-demo",
+	"main": ".svelte-kit/cloudflare/_worker.js",
+	"compatibility_date": "2026-11-01",
+	"compatibility_flags": ["nodejs_compat"],
+	"assets": {
+		"binding": "ASSETS",
+		"directory": ".svelte-kit/cloudflare"
+	},
+	"observability": { "enabled": true },
+	"placement": { "mode": "smart" },
+	"vars": {
+		"PUBLIC_TURNSTILE_SITE_KEY": "0x4AAAAAAF6XByZrrso_s4aS",
+		"PUBLIC_SITE_URL": "https://mallerym-demo.goosebumpsevents.workers.dev",
+		"PUBLIC_MFA_REQUIRED": "false"
+	}
+}
